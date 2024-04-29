@@ -49,6 +49,12 @@
 	padding-block: clamp(2rem, 10vw, 4rem);
 }
 
+/*focus-visible*/
+:focus-visible {
+	outline: 2px solid var(--color--text);
+	outline-offset: 2px;
+}
+
 /* Layout */
 .section {
 	padding-block: clamp(1rem, 5vw, 2rem);
